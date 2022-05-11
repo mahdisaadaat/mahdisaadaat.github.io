@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'iranSans';
+    src: url(./fonts/IRANSans_0.ttf);
+}
+
+* {
+    font-family: 'iranSans';
+}
+
+section {
+    width: 50%;
+    margin: auto;
+}
+
+.essay-container {
+    display: grid;
+}
+
+.essay-main {
+    border-top: 2px solid #303841;
+    border-bottom: 2px solid #303841;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.essay-main h1 {
+    text-align: center;
+}
+
+.essay-main h2 {
+    text-align: center;
+}
+
+.insta-address {
+    margin-top: 15px;
+}
+
+.insta-address:hover {
+    color: #2185D5;
+    transition: ease-out 0.5s;
+}
+
+.insta-address i {
+    font-weight: bold;
+}
+
+.insta-address a {
+    text-decoration: none;
+    color: #303841;
+}
+
+.insta-address a:hover {
+    color: #2185D5;
+    transition: ease-out 0.5s;
+}
+
+.essay-header {
+    justify-content: space-between;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    background: deepskyblue url(../Google-photos/src/profile_logo.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    float: right;
+}
+
+.essay-footer {
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.essay-footer i {
+    padding: 5px;
+    font-size: 40px;
+}
+
+.essay-footer .fa-telegram:hover {
+    color: #2185D5;
+    transition: ease-out 0.5s;
+}
+
+.essay-footer .fa-phone:hover {
+    color: #36AE7C;
+    transition: ease-out 0.5s;
+}
+
+.essay-footer .fa-instagram:hover {
+    color: #A64B2A;
+    transition: ease-out 0.5s;
+}
