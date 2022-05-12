@@ -1,0 +1,125 @@
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Wordpress-MahdiCodes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="side-menu" class="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="main-menu">
+            <h3>عنوان مطالب</h3>
+            <a class="wordpress-1" href="#">آشنایی با ساختار فایلهای قالب وردپرس</a>
+            <a class="wordpress-2" href="#">مقاله دوم</a>
+        </div>
+    </div>
+    <div id="content-area">
+        <span style="font-size:20px; cursor: pointer;" onclick="openNav()">&#9776; فهرست مطالب</span>
+    </div>
+    <section>
+        <div class="essay-container">
+            <div class="essay-header">
+                <div class="profile"></div>
+                <div class="insta-address">
+                    <i class="fa fa-instagram"><a href="https://instagram.com/MahdiCodes">MahdiCodes</a></i>
+                </div>
+            </div>
+            <div class="essay-main">
+                <div class="essay1">
+                    <h1>ساختار فایل های اصلی وردپرس</h1>
+                    <p>
+                    قالب های وردپرس در ترکیب با معماری قدرتمند ساختار وردپرس، به آن این امکان را می دهد بدون نیاز به تغییر در ساختار فایل های اصلی وردپرس (فایل سیستمی)، قابلیت سفارشی سازی نامحدودی داشته باشند.<br>
+                    در این مطلب با ساختار فایل های اصلی وردپرس و ساختار فایل های قالب وردپرس اشنا می شوید.
+                    </p><br>
+                    <h2>مزایای استفاده از قالب در وردپرس</h2>
+                    <p>
+                    قالب، بخش نمایش وب سایت را از فایلهای سیستمی جدا می کند تا شما بتوانید بخش بصری وب سایت را با کمترین تلاش تغییر دهید.
+                    قالب ها اغلب تنظیمات بسیار قدرتمندی برای فعال و غیر فعال کردن ویژگی های جدید دارند، بر این اساس طراحان قالب غالبا ابزارهایی را برای گالری ها و اسلایدر ها اضافه می کنند.
+                    قالبها اغلب تنظیماتی برای ویرایش طراحی و چیدمان طرح بندی سایت را به راحتی فراهم می کنند.
+                    قالبهایی که به خوبی طراحی شده اند، دیگر نیازی نیست که مدیر سایت برای اصلاح و ویرایش وب سایت  با  ,CSS, HTML و یا PHP آشنایی داشته باشد.
+                    </p><br>
+                    <h2>فایل های اصلی وردپرس</h2>
+                    <p>در بررسی فایل های اصلی وردپرس بایستی گفت قالبهای وردپرس در قالب پوشه wp-content قرار می گیرند.وردپرس برای یک قالب تنها به دو فایل  نیاز دارد. <br>فایل اول  style.css است که قالب وردپرس را شرح می دهد. وردپرس با استفاده از comment هایی که در این فایل آغاز می شود، شرح قالب را می خواند.<br>
+
+                    فایل مورد نیاز دیگر index.php  است که حاوی حلقه ای برای نمایش محتوای منتشر شده در وردپرس است.
+                    </p><br>
+                    <h2>صفحات الگوی سایت وردپرس</h2>
+                    <p>زمانی که وردپرس به عنوان یک ساختار مبتنی بر بلاگ شروع به کار کرد، نوشتن پست ها نیازی به انتشار در سایت وردپرسی نداشتند.  اگر قصد ندارید از وردپرس برای بلاگ نویسی استفاده کنید، فایلهای  زیر را می توانید برای طراحی های خاص سفارشی سازی کنید:</p><br>
+                    <h4>1) فایل php.404</h4>
+                    <p>این فایل جهت طراحی خطای ۴۰۴ است، زمانی که محتوای مورد نظر یافت نمی شود.</p><br>
+                    <h4>2) فایل Frontpage.php</h4>
+                    <p>زمانی استفاده می شود که شما یک صفحه استاتیک در بخش ذیر ایجاد می کنید. این بخش زمانی کاربرد دارد که پست های شما در صفحه اول باید نمایش داده شوند.</p><br>
+                    <h4>3) فایل Home.php</h4>
+                    <p>طراحی پیشفرض صفحه Home</p><br>
+                    <h4>4) فایل Page.php</h4>
+                    <p>طراحی پیش فرض صفحات</p><br>
+                    <h4>5) فایل Page-slug.php</h4>
+                    <p>این فایل طراحی قالب را بر صفحات اعمال کرده و آن را با URL نامک مطابقت می دهد.</p><br>
+                    <h4>6) فایل Search.php</h4>
+                    <p>طراحی پیشفرض صفحه نتایج جستجو</p><br>
+                    <h2>بخش مختلف فایل های قالب وردپرس</h2>
+                    <p>تمامی فایلهای قالب وردپرس حاوی تمامی عناصر طراحی شما نیستند. وقتی به یک سایت معمولی نگاه می کنید، متوجه می شوید که ۴ بخش اساسی در ساختار فایلهای وردپرس صفحات رایج است :
+
+                    <br>Content : محتوایی که شما در آن صفحه، به خصوص  پست ها، آرشیو ایجاد کرده اید.
+                    <br>header.php : طراحی مشترک رایج در بالای هر یک از صفحات،پست ها یا آرشیو.
+                    <br>footer.php : طراحی مشترک در پایین هر یک از صفحات،پست ها.
+                    <br>sidebar.php : طراحی مشترک در کنار هر یک از صفحات،پست ها.
+                    <br>search.php : فرم جستجویی که در قالب شما استفاده می شود.
+                    </p><br>
+                    <h2>صفحات قالب بلاگ وردپرس</h2>
+                    <p>اگر قصد دارید در ورپرس blog راه اندازی کنید، سیستم مدیریت محتوا آن به گونه ای است که گزینه های بیشتری در اختیار دارید و می توانید روی آن کار کنید  :<br>
+
+                    archive.php : طراحی پیشفرض برای نمایش پست ها بر اساس نویسنده،تاریخ ، category.  
+                    <br>attachment.php : طراحی پیشفرض برای نمایش فایلهای پیوست که در بخش رسانه های تصویری آپلود شده اند.        
+                    <br>author.php : طراحی پیشفرض برای یک نویسنده مجزا.
+                    <br>category.php : طراحی پیشفرض برای نمایش پست برای یک category.
+                    <br>comments.php: الگوی پیشفرضی که برای درج نظر، در بلاگ استفاده می شود.
+                    <br>date.php: طراحی پیشفرض برای نمایش پست ها بر اساس تاریخ، (اگر در حالت ساختار پرمالینک فعال شود).
+                    <br>image.php : طراحی پیشفرض برای نمایش  تصویری که در کتابخانه تصاویر آپلود شده.
+                    <br>single.php : طراحی پیشفرض برای یک پست مجزا.
+                    <br>tag.php : طراحی پیشفرض برای نمایش آرشیو پست ها بر اساس برچسب.
+                    <br>taxonomy.php : طراحی پیشفرض برای نمایش  آرشیو پستها با یک  رده بندی سفارشی.
+                </p><br>
+                </div>
+                <div class="essay2">
+                    <h1>مقاله دوم به زودی ...</h1>
+                </div>
+            </div>
+            <div class="essay-footer">
+                <a href="https://telegram.me/mahdisaadaat" style="text-decoration: none; color:#303841" target="_blank"><i class="fa fa-telegram fa-1x"></i></a>
+                <a href="https://instagram.com/MahdiCodes" style="text-decoration: none; color:#303841"target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="tel:09372291481" style="text-decoration: none; color:#303841"><i class="fa fa-phone"></i></a>
+            </div>
+        </div>        
+    </section>
+
+    <script>
+        
+        $(".essay2").hide();
+
+        $(".wordpress-1").click(() => {
+            $(".essay1").show();
+            $(".essay2").hide();
+        });
+
+        $(".wordpress-2").click(() => {
+            $(".essay1").hide();
+            $(".essay2").show();
+        });
+
+        function openNav(){
+            document.getElementById("side-menu").style.width ="300px";
+            document.getElementById("")
+        }
+
+        function closeNav(){
+                document.getElementById("side-menu").style.width ="0";
+        }
+        
+    </script>
+</body>
+</html>
