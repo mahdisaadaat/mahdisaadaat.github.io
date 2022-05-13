@@ -15,6 +15,7 @@
             <h3>عنوان مطالب</h3>
             <a class="wordpress-1" href="#">آشنایی با ساختار فایلهای قالب وردپرس</a>
             <a class="wordpress-2" href="#">Template Hierarchy در وردپرس</a>
+            <a class="wordpress-3" href="#">مقاله سوم</a>
         </div>
     </div>
     <div id="content-area">
@@ -119,6 +120,9 @@
                     <h2>جمع بندی</h2>
                     <p>درک ساختار سلسه مراتب قالب به نظر پیچیده است اما با شناخت دقیق آن می دانید که کدام فایل ها باید تغییر کنند و چه مواردی را باید به قالب وب سایت تان اضافه کنید. به این نکته توجه داشته باشید که برای ایجاد قالب وردپرس حداقل باید فایل های index.php و style.css را ایجاد کنید و گرنه با خطا مواجه خواهید شد.</p>
                 </div>
+                <div class="essay3">
+                    <h1>مقاله سوم به زودی ...</h1>
+                </div>
             </div>
             <div class="essay-footer">
                 <a href="https://telegram.me/mahdisaadaat" style="text-decoration: none; color:#303841" target="_blank"><i class="fa fa-telegram fa-1x"></i></a>
@@ -131,15 +135,24 @@
     <script>
         
         $(".essay2").hide();
+        $(".essay3").hide();
 
         $(".wordpress-1").click(() => {
             $(".essay1").show();
             $(".essay2").hide();
+            $(".essay3").hide();
         });
 
         $(".wordpress-2").click(() => {
             $(".essay1").hide();
             $(".essay2").show();
+            $(".essay3").hide();
+        });
+
+        $(".wordpress-3").click(() => {
+            $(".essay1").hide();
+            $(".essay2").hide();
+            $(".essay3").show();
         });
 
         function openNav(){
