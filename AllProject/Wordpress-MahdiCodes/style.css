@@ -20,16 +20,33 @@ section {
 .essay-main {
     border-top: 2px solid #303841;
     border-bottom: 2px solid #303841;
-    text-align: right;
+    text-align: center;
     margin-top: 15px;
 }
 
+.essay-main img {
+    width: 100%;
+}
+
 .essay-main h1 {
+    text-align: center;
     text-align: center;
 }
 
 .essay-main h2 {
     text-align: center;
+}
+
+.essay-main p {
+    text-align: right;
+}
+
+.essay-main img {
+    text-align: center;
+}
+
+.essay-main li {
+    text-align: right;
 }
 
 .insta-address {
@@ -164,5 +181,11 @@ section {
     section {
         width: 85%;
         margin: auto;
+    }
+    .essay-main {
+        font-size: 14px;
+    }
+    .essay-main img {
+        width: 300px;
     }
    }
