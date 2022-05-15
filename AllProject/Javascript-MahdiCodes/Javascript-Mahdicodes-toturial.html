@@ -1,0 +1,115 @@
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Wordpress-MahdiCodes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="loading">
+        <div class="profile-logo-loading"></div>
+        <div class="ccont">
+            <h1>MahdiCodes</h1>
+        </div>
+        </div>
+    <div class="container">
+        <div id="side-menu" class="sideMenu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="main-menu">
+                <h3>عنوان مطالب</h3>
+                <a class="wordpress-1" href="#">معرفی جاوا اسکریپت</a>
+            </div>
+        </div>
+        <div id="content-area">
+            <span style="font-size:20px; cursor: pointer;" onclick="openNav()">&#9776; فهرست مطالب</span>
+        </div>
+        <section>
+            <div class="essay-container">
+                <div class="essay-header">
+                    <div class="profile"></div>
+                    <div class="insta-address">
+                        <i class="fa fa-instagram"><a href="https://instagram.com/MahdiCodes">MahdiCodes</a></i>
+                    </div>
+                </div>
+                <div class="essay-main">
+                    <div class="essay1">
+                        <h1>معرفی جاوا اسکریپت</h1>
+                        <p>
+                            جاوا اسکریپت محبوب ترین زبان برنامه نویسی در جهان و یکی از زبان های برنامه نویسی وب است. یادگیری جاوا اسکریپت آسان است و ما در این آموزش از مقدماتی تا پیشرفته را به شما آموزش می دهیم.
+                        </p>
+                        <p style="font-weight: bold;">چرا جاوا اسکریپت را مطالعه کنیم؟</p>
+                        <p>
+                            جاوا اسکریپت یکی از 3 زبانی است که همه توسعه دهندگان وب باید یاد بگیرند:<br>
+                            <li>
+                                HTML برای تعریف محتوای صفحات وب
+                            </li>
+                            <li>
+                                CSS برای تعیین طرح بندی صفحات وب
+                            </li>                            
+                            <li>
+                                جاوا اسکریپت برای برنامه ریزی رفتار صفحات وب
+                            </li>
+                        </p>
+
+                    </div>
+                    <div class="essay2">
+
+                    </div>
+                    <div class="essay3">
+                        
+                    </div>
+                </div>
+                <div class="essay-footer">
+                    <a href="https://telegram.me/mahdisaadaat" style="text-decoration: none; color:#303841" target="_blank"><i class="fa fa-telegram fa-1x"></i></a>
+                    <a href="https://instagram.com/MahdiCodes" style="text-decoration: none; color:#303841"target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="tel:09372291481" style="text-decoration: none; color:#303841"><i class="fa fa-phone"></i></a>
+                </div>
+            </div>        
+        </section>
+    </div>
+    <script>
+        
+        $(".essay2").hide();
+        $(".essay3").hide();
+
+        $(".wordpress-1").click(() => {
+            $(".essay1").show();
+            $(".essay2").hide();
+            $(".essay3").hide();
+        });
+
+        $(".wordpress-2").click(() => {
+            $(".essay1").hide();
+            $(".essay2").show();
+            $(".essay3").hide();
+        });
+
+        $(".wordpress-3").click(() => {
+            $(".essay1").hide();
+            $(".essay2").hide();
+            $(".essay3").show();
+        });
+
+        function openNav(){
+            document.getElementById("side-menu").style.width ="300px";
+            document.getElementById("")
+        }
+
+        function closeNav(){
+                document.getElementById("side-menu").style.width ="0";
+        }
+        
+        $(".container").hide();
+        window.onload = () => {
+            setTimeout(() => {
+                $(".loading").fadeOut(300);
+                $(".container").fadeIn(200);    
+            }, 2000);
+        }
+        
+    </script>
+</body>
+</html>
