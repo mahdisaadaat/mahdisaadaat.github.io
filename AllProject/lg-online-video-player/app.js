@@ -1,11 +1,5 @@
-const searchGoogle = () => {
-  let searchText = document.getElementById("searchText").value;
-  /*let searchShow = location.replace(
-    "https://www.google.com/search?q=" + searchText + ""
-  );*/
-  document
-    .getElementById("searchResult")
-    .innerHTML(
-      ("https://www.google.com/search?q=" + searchText + "")
-    );
-};
+const links = [
+  "http://cloud2.nightblackmovie.online/dl17/jack/Movie/2021/The.Bargain/The.Bargain.2021.1080p.WEB-DL.x264.AAC-YIFY.NightMovie.mp4?key=416228_m5lQ26g98z6U1PmSt9RUdglmt1671897448",
+  "adads",
+];
+document.getElementById("linksList").innerHTML = links;
