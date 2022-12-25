@@ -1,0 +1,19 @@
+.movies-list {
+  width: 100%;
+}
+.rig {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.movies {
+  list-style: none;
+  padding: 70px;
+}
+.link-url {
+  width: 250px;
+  word-break: break-all;
+  white-space: normal;
+}
+.poster {
+  border-radius: 25px;
+}
