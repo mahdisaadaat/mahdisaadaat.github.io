@@ -55,7 +55,7 @@
             />
           </video>
         </div>
-        <div class="column p-5">
+        <div class="column p-5 movies-list">
           <ul class="rig"></ul>
         </div>
       </div>
@@ -64,29 +64,36 @@
       const urls = [
         {
           id: 1,
-          url: "http://cloud2.nightblackmovie.online/dl15/arashM2/Movie.Sub/0/Day99/Avatar.2009/Avatar.2009.Collectors.Extended.Cut.1080p.BluRay.6CH.x265.HEVC.SoftSub.NightMovie.mkv?key=416228_0ARiA7chjruj8de6RHaxtAlmt1671948842",
+          url: "https://dl1.filmkio.vin/2009/Avatar.2009/Avatar.2009.1080p.BrRip.x264.YIFY.FilmKio.mkv",
+          img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
         },
         {
           id: 2,
-          url: "http://cloud2.nightblackmovie.online/dl17/sina/Movie.Sub/2022/Lyle.Lyle.Crocodile/Lyle.Lyle.Crocodile.2022.1080p.BluRay.6CH.x264.SoftSub.NightMovie.mkv?key=416228_NSSq3S8Fu9Oxc5C3KHGN8Qlmt1671952720",
+          url: "https://dl1.filmkio.vin/2009/Avatar.2009/Avatar.2009.1080p.BrRip.x264.YIFY.FilmKio.mkv",
+          img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
         },
         {
           id: 3,
-          url: "https://cdn2.uptv.ir/?s=11&f=film2/2022/Recep_Ivedik_7_2022_1080p_UPTV.co_Sub.mkv",
+          url: "https://dl1.filmkio.vin/2009/Avatar.2009/Avatar.2009.1080p.BrRip.x264.YIFY.FilmKio.mkv",
+          img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
         },
         {
           id: 4,
-          url: "http://dl1.3rver.org/hex3/Film/1397/12/Avatar.2009.EXTENDED.1080p.Farsi.Dubbed.HexDL.com.mkv",
+          url: "https://dl1.filmkio.vin/2009/Avatar.2009/Avatar.2009.1080p.BrRip.x264.YIFY.FilmKio.mkv",
+          img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
         },
         {
           id: 5,
           url: "https://dl1.filmkio.vin/2009/Avatar.2009/Avatar.2009.1080p.BrRip.x264.YIFY.FilmKio.mkv",
+          img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
         },
       ];
       console.log(urls[0].url);
       let ul = $("ul.rig");
       for (i = 0; i <= urls.length - 1; i++) {
-        ul.append(`<li><p>${urls[i].url}</p></li>`);
+        ul.append(
+          `<li class="movies"><img class="poster" width="250px" src="${urls[i].img}"/><p class="link-url">${urls[i].url}</p></li>`
+        );
       }
 
       function addLink() {
