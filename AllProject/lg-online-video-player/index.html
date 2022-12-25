@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="utf-8">
+<html lang="en">
   <head>
     <title>Online Video Player: Designed By MahdiSaadaat</title>
     <meta charset="utf-8" />
@@ -23,39 +23,61 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <div class="column">
-          <div class="playButton mt-5">
-            <input class="linkValue" id="linkValue" type="text" value="" />
-            <button class="playBtn" onclick="addLink()">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/0/375.png"
-                alt=""
-                width="50px"
-              />
-            </button>
-          </div>
-          <div id="linksList" class="linksList">
-            <p>
-              http://cloud2.nightblackmovie.online/dl15/arashM2/Movie.Sub/0/1400/01/Charlie%20and%20the%20Chocolate%20Factory.2005/Charlie%20and%20the%20Chocolate%20Factory.2005.1080p.SoftSub.NightMovie.mkv?key=416228_Xn6mLFfNEUe1vSfgt4G7CAlmt1671902402
-            </p>
-            <p>
-              http://cloud2.nightblackmovie.online/dl15/arashM2/Movie.Sub/0/Day99/Avatar.2009/Avatar.2009.Collectors.Extended.Cut.1080p.BluRay.6CH.x264.SoftSub.NightMovie.mkv?key=416228_ocW7RSlcOCcFFKH2fVSw3glmt1671903537
-            </p>
-            <br />
-          </div>
-          <video
-            class="video"
-            id="videoPlayer"
-            src=""
-            width="400px"
-            height="400px"
-            controls
-          ></video>
+      <div class="row d-flex align-items-center">
+        <div class="column p-5">
+          <label style="font-weight: bold">Add Movie Link</label>
+          <input
+            style="border: none; background-color: #eee; border-radius: 25px"
+            id="linkValue"
+            type="text"
+            value=""
+          />
+          <button
+            style="border: none; background: transparent"
+            onclick="addLink()"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/0/375.png"
+              alt=""
+              width="25px"
+            />
+          </button>
+        </div>
+        <div class="column p-5">
+          <video id="videoPlayer" controls width="400px">
+            <source src="" />
+            <track
+              id="sub"
+              src="subtitle/avatar2009.vtt"
+              kind="subtitles"
+              srclang="fa"
+              label="Farsi"
+              default
+            />
+          </video>
+        </div>
+        <div class="column p-5">
+          <ul class="rig"></ul>
         </div>
       </div>
     </div>
     <script>
+      const urls = [
+        {
+          id: 1,
+          url: "http://cloud2.nightblackmovie.online/dl15/arashM2/Movie.Sub/0/Day99/Avatar.2009/Avatar.2009.Collectors.Extended.Cut.1080p.BluRay.6CH.x265.HEVC.SoftSub.NightMovie.mkv?key=416228_0ARiA7chjruj8de6RHaxtAlmt1671948842",
+        },
+        {
+          id: 2,
+          url: "http://cloud2.nightblackmovie.online/dl17/sina/Movie.Sub/2022/Lyle.Lyle.Crocodile/Lyle.Lyle.Crocodile.2022.1080p.BluRay.6CH.x264.SoftSub.NightMovie.mkv?key=416228_NSSq3S8Fu9Oxc5C3KHGN8Qlmt1671952720",
+        },
+      ];
+      console.log(urls[0].url);
+      let ul = $("ul.rig");
+      for (i = 0; i <= urls.length - 1; i++) {
+        ul.append(`<li><p>${urls[i].url}</p></li>`);
+      }
+
       function addLink() {
         let videoLink = document.getElementById("linkValue").value;
         let video = document.getElementById("videoPlayer");
