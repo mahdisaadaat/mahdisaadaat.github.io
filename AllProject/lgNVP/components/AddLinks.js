@@ -1,4 +1,7 @@
+import data from "../db/data.json" assert { type: "json" };
+
 export const Addlinks = () => {
+  console.log(data.id);
   return `
     <div class="addLinks input-group rounded">
         <label class="addLinkLabel m-2">Add Links</label>
