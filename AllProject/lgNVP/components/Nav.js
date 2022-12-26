@@ -10,7 +10,7 @@ export const Nav = (name) => {
         </div>
         <div class="navButtons">
             <button type="button" class="btn btn-outline-danger"><a class="btn-outline-danger" href="../index.html">Home</a></button>
-            <button type="button" class="btn btn-outline-success"><a class="btn-outline-success" href="../pages/addMovie.html">Add Movie</a></button>
+            <button type="button" class="btn btn-outline-success"><a class="btn-outline-success" href="lgNVP/pages/addMovie.html">Add Movie</a></button>
         </div>
     </div>`;
 };
