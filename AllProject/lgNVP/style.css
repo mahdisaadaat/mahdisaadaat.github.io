@@ -1,0 +1,45 @@
+label {
+  color: white;
+}
+.container-fluid {
+  background-color: black;
+  height: 100vh;
+}
+.navbar {
+  background: #86c8bc;
+}
+.search {
+  width: 30%;
+}
+.search-input {
+  border: 1px solid black;
+  border-radius: 25px;
+  background: transparent;
+}
+.search-icon {
+  background: transparent;
+}
+.search-icon:hover {
+  background: #eee;
+  transition: 0.3s ease-in;
+}
+.videoPlayerContainer {
+  text-align: center;
+}
+.videoPlayer {
+  width: 50%;
+  border-radius: 25px;
+}
+.addLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addLinkLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.addLinkInput {
+  width: 50%;
+}
