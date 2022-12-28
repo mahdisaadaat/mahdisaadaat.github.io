@@ -25,22 +25,19 @@
 .movies-list {
   width: 100%;
 }
+.rig {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
 .movies {
-  width: 50%;
-  margin: auto;
   list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;
 }
-.link-url {
-  width: 70%;
-  margin: auto;
-  word-break: break-all;
-  white-space: normal;
-}
+
 .poster {
-  width: 100px;
-  margin: 25px;
+  margin-bottom: 5px;
+  height: 250px;
+  width: 100%;
+  padding: 5px;
   border-radius: 25px;
 }
