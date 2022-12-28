@@ -77,23 +77,39 @@
       const urls = [
         {
           id: 1,
+          movieName: "Avatar.2009",
           url: "https://dl1.filmkio.vin/2009/Avatar.2009/Avatar.2009.1080p.BrRip.x264.YIFY.FilmKio.mkv",
           img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
         },
         {
           id: 2,
+          movieName: "Veer.Zaara.2004",
           url: "http://cloud2.nightblackmovie.online/dl15/sina/Movie.Sub/2004/Veer.Zaara/Veer.Zaara.2004.1080p.6CH.x265.HEVC.SoftSub.NightMovie.mkv?key=416228_e8PwQDMVkOhfagiPbP5QWAlmt1672161967",
           img: "http://cdn.8nightmovie.click/upload/280/RYNPUdiwW0VO8hJ0DT98r_KB6uS9.jpg",
         },
         {
           id: 3,
+          movieName: "Ask.Yeniden_23",
           url: "https://ir21.uploadboy.com/d/ctd13ke7qyp3/wfney2p7jdfx3poh7aug3wwvxxp4vj23u72pcebqv5bw53ipxxdk3z444peht26bcpe25fby/Ask.Yeniden_23_Hardsub_720p.mkv",
           img: "https://upload.wikimedia.org/wikipedia/fa/thumb/f/f9/A%C5%9Fk_yeniden_poster.jpg/220px-A%C5%9Fk_yeniden_poster.jpg",
         },
         {
           id: 4,
+          movieName: "PosteShir-S02E02",
           url: "https://ir51.uploadboy.com/d/b11u32tevp4z/r5nbwlwjjdfx3pohquuwzh4a7fymrew4iq5dwxqqwfrc5fy5phdufj3kztu4eeorycbskluo/PosteShir-S02E02-720.mp4",
           img: "https://upload.wikimedia.org/wikipedia/fa/1/1f/The-Lion-Skin.jpg",
+        },
+        {
+          id: 5,
+          movieName: "Lamborghini.2022",
+          url: "http://cloud2.nightblackmovie.online/dl17/jack/Movie/2022/Lamborghini.The.Man.Behind.The.Legend/Lamborghini.The.Man.Behind.The.Legend.2022.1080p.BluRay.x264.AAC5.1-YIFY.NightMovie.mp4?key=416228_PV9txBKaR9C4ENDPBhrsyAlmt1672229697",
+          img: "http://cdn.8nightmovie.click/upload/280/d_exITjYigRGsNZErSUP6DTxULjF.jpg  ",
+        },
+        {
+          id: 6,
+          movieName: "Ghost.Rider.2007",
+          url: "http://cloud2.nightblackmovie.online/dl15/phonix/Movie.Sub/2007/Ghost.Rider/Ghost.Rider.Extended.Cut.2007.1080p.BluRay.6CH.SoftSub.NightMovie.mkv?key=416228_yFQW5Z1bGUq8V2RSxFsHzQlmt1672230010",
+          img: "http://cdn.8nightmovie.click/upload/280/B8OxwB8RZlskY3OEBicyVFMWJGMo.jpg",
         },
       ];
       let ul = $("ul.rig");
@@ -103,9 +119,9 @@
             urls[i].img
           }"/><button id=${[
             i,
-          ]} onclick="playLink(this.id)"><p class="link-url" id="link-url${[
+          ]} onclick="playLink(this.id)" class="link-url btn btn-primary"><p class="d-none" id="link-url${[
             i,
-          ]}">${urls[i].url}</p></button></li>`
+          ]}">${urls[i].url}</p>${urls[i].movieName}</button></li>`
         );
       }
       function addLink() {
