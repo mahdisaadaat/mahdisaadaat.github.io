@@ -5,18 +5,33 @@
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
 }
 /*-----VIDEO PLAYER-----*/
-
+.playerContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.videoPlayer {
+  width: 800px;
+}
 .movies-list {
   width: 100%;
 }
 .movies {
+  width: 50%;
+  margin: auto;
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .link-url {
+  width: 70%;
+  margin: auto;
   word-break: break-all;
   white-space: normal;
 }
 .poster {
   width: 100px;
+  margin: 25px;
   border-radius: 25px;
 }
