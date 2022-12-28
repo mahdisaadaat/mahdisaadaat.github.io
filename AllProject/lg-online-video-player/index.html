@@ -30,8 +30,8 @@
         </div>
       </div>
       <div class="row d-flex align-items-center">
-        <div class="column p-5">
-          <label style="font-weight: bold">Add Movie Link</label>
+        <!--<div class="column p-5">
+            <label style="font-weight: bold">Add Movie Link</label>
           <input
             style="border: none; background-color: #eee; border-radius: 25px"
             id="linkValue"
@@ -48,8 +48,8 @@
               width="25px"
             />
           </button>
-        </div>
-        <div class="column p-5">
+        </div>-->
+        <div class="column p-5 playerContent">
           <video
             class="videoPlayer embed-responsive-item"
             id="videoPlayer"
@@ -93,18 +93,30 @@
           img: "https://upload.wikimedia.org/wikipedia/fa/1/1f/The-Lion-Skin.jpg",
         },
       ];
-      console.log(urls[0].url);
       let ul = $("ul.rig");
-      for (i = 0; i <= urls.length - 1; i++) {
+      for (let i = 0; i <= urls.length - 1; i++) {
         ul.append(
-          `<li class="movies"><img class="poster" src="${urls[i].img}"/><p class="link-url">${urls[i].url}</p></li>`
+          `<li class="movies"><img class="poster" src="${
+            urls[i].img
+          }"/><button id=${[
+            i,
+          ]} onclick="playLink(this.id)"><p class="link-url" id="link-url${[
+            i,
+          ]}">${urls[i].url}</p></button></li>`
         );
       }
-
       function addLink() {
         let videoLink = document.getElementById("linkValue").value;
         let video = document.getElementById("videoPlayer");
         video.src = videoLink;
+      }
+      function playLink(x) {
+        let videoLink = document.getElementById(`link-url${x}`).textContent;
+        console.log(videoLink);
+        let video = document.getElementById("videoPlayer");
+        video.style.display = "block";
+        video.src = videoLink;
+        video.play();
       }
     </script>
     <script
