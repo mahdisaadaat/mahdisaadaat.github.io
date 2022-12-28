@@ -1,19 +1,22 @@
+/*-----HEADER-----*/
+.header-container {
+  background: #fd8a8a;
+  padding: 25px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+/*-----VIDEO PLAYER-----*/
+
 .movies-list {
   width: 100%;
 }
-.rig {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
 .movies {
   list-style: none;
-  padding: 70px;
 }
 .link-url {
-  width: 250px;
   word-break: break-all;
   white-space: normal;
 }
 .poster {
+  width: 100px;
   border-radius: 25px;
 }
