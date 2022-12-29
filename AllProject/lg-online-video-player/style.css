@@ -21,6 +21,7 @@
 }
 .videoPlayer {
   width: 800px;
+  border-radius: 25px;
 }
 .movies-list {
   width: 100%;
