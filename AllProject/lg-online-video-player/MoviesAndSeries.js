@@ -1,8 +1,8 @@
 const urls = [
   {
     id: 1,
-    movieName: "اکتور ۳",
-    url: "https://ir31.uploadboy.com/d/86y16hqxna2l/rnnaqnwhjdfx3pohumuwdf67wvqixieqsadcy6p7ibjslcj6aosxpanaawt3k5epj55s3qen/Actor-E03.720.mp4",
+    movieName: "اکتور 7",
+    url: "https://ir91.uploadboy.com/d/a18qfdo5xrqm/snnlms6gjdfx3pohwiuw7fuc5csc4jwhxbbhiaeh322iyozyjw27fqm3nin4nhbyxgkne7ym/Actor-E07.720.mp4",
     img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
     movieSubtitle: "GhostraiderSub.vtt",
   },
