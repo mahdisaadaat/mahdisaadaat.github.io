@@ -4,7 +4,7 @@ const urls = [
     movieName: "ashiqui 2",
     url: "https://cdn.irdanlod.ir/?s=4&f=/files/Movie/2013/A/Aashiqui.2.2013.1080p.Farsi.Subbed.mkv",
     img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
-    movieSubtitle: "../subtitles/Aashiqui.2.vtt",
+    movieSubtitle: "Aashiqui.2.vtt",
   },
 ];
 
