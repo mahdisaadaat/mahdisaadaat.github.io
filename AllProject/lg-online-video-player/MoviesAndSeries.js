@@ -1,8 +1,8 @@
 const urls = [
   {
     id: 1,
-    movieName: "new actor 11",
-    url: "https://ir31.uploadboy.com/d/ap794j4jvc7l/rnnj7fwejdfx3pohiixdxw6t7lkfhnvughpnzdlpgaictahdxia7i5qc2wurbopikeuas22i/Actor-E11.1080.mp4",
+    movieName: "Aile 1",
+    url: "https://dl2.plazairan.com/series/Turkish/Aile/subbed/s1/1080p/Aile%20E01%201080p.Farsi.Subbed.Tvrooz.mkv",
     img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
     movieSubtitle: "",
   },{
