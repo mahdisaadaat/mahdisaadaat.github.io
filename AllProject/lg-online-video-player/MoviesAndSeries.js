@@ -2,7 +2,7 @@ const urls = [
   {
     id: 1,
     movieName: "Aile 1",
-    url: "https://dl2.plazairan.com/series/Turkish/Aile/subbed/s1/1080p/Aile%20E01%201080p.Farsi.Subbed.Tvrooz.mkv",
+    url: "https://ir31.uploadboy.com/d/5vyrdp9qa1mm/rnnfkuoejdfx3pohlaxdxwgi7zmo2uidrtiqlfxn4daev4wlpam46xox2wefqwn5gwvve7xe/Actor.e13-1080p.mp4",
     img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
     movieSubtitle: "",
   },{
