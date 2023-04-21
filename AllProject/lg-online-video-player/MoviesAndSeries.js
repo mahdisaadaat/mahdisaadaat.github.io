@@ -7,8 +7,8 @@ const urls = [
     movieSubtitle: "",
   },{
     id: 2,
-    movieName: "actor 12",
-    url: "https://ir91.uploadboy.com/d/gp0byzlo3ws4/snndr7oejdfx3pohi4xgtxub52ggcwzrvsp4ozpkbl55zhhr6ricenrdff2fbbndpxpoz7su/actor-12-1080.mp4",
+    movieName: "رهایم نکن",
+    url: "https://ir31.uploadboy.com/d/0u1ywc9jnvb1/rnnc4toejdfx3pohlexgdhef6svzth6ba7dd6gvsgfzuutmveh4z23jtl2kvg4hwuq7kyeyk/rahayamkon-e10.720p.mp4",
     img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
     movieSubtitle: "",
   },
