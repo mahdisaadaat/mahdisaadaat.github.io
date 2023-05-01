@@ -1,15 +1,15 @@
 const urls = [
   {
     id: 1,
-    movieName: "Actor 14",
-    url: "https://ir31.uploadboy.com/d/ynpqh8266cq2/rnnc7bodjdfx3pohlqxhtrgt5zego5tx6bgifqyltdjwrgotg2qt5loj4xfknnicsfkvjwh3/Actor-e14-1080.mp4",
-    img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
+    movieName: "rahayam kon E1",
+    url: "https://ir91.uploadboy.com/d/p4a6eirc76t2/snnhzhogjdfx3pohuqux5gwqxizye5hkrqabc7umhdbrfdshaxwr5me77poop3oiy47fwjle/Rahayamkon01-1080.mp4",
+    img: "https://zbcdn.cloud/files/cache/46614_photo_2023-02-17_10-06-12.2d42c6.jpg",
     movieSubtitle: "",
   },{
     id: 2,
-    movieName: "رهایم نکن",
-    url: "https://ir31.uploadboy.com/d/0u1ywc9jnvb1/rnnc4toejdfx3pohlexgdhef6svzth6ba7dd6gvsgfzuutmveh4z23jtl2kvg4hwuq7kyeyk/rahayamkon-e10.720p.mp4",
-    img: "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_.jpg",
+    movieName: "rahayam kon E2",
+    url: "https://ir51.uploadboy.com/d/76kfvwdg2cpa/r5nit7ggjdfx3pohxauwph6z7xu4yfm3wqr5jaej5zjkzowgj2q7ayw6cb2cc2s4lv6sbbnu/Rahayamkon021080.mp4",
+    img: "https://static.cdn.asset.filimo.com/flmt/mov_131436_53684-m.jpg",
     movieSubtitle: "",
   },
 ];
