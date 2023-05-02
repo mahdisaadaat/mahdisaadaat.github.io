@@ -1,9 +1,9 @@
 const urls = [
   {
     id: 1,
-    movieName: "rahayam kon E1",
-    url: "https://ir91.uploadboy.com/d/p4a6eirc76t2/snnhzhogjdfx3pohuqux5gwqxizye5hkrqabc7umhdbrfdshaxwr5me77poop3oiy47fwjle/Rahayamkon01-1080.mp4",
-    img: "https://zbcdn.cloud/files/cache/46614_photo_2023-02-17_10-06-12.2d42c6.jpg",
+    movieName: "Nato E1",
+    url: "https://ir31.uploadboy.com/d/659a3oa4qwn0/rnnbay6ejdfx3pohlyxgdr4d7l6ift6i46ox54hrckjn3aqznwmcslhfbhsbxvfqttxv3wnj/Naato-01-1080.mp4",
+    img: "https://benameiran.golf/wp-content/uploads/2023/04/Naato-S01E01.jpg",
     movieSubtitle: "",
   },
   {
