@@ -33,25 +33,6 @@
         </div>
       </div>
       <div class="row d-flex align-items-center">
-        <!--<div class="column p-5">
-            <label style="font-weight: bold">Add Movie Link</label>
-          <input
-            style="border: none; background-color: #eee; border-radius: 25px"
-            id="linkValue"
-            type="text"
-            value=""
-          />
-          <button
-            style="border: none; background: transparent"
-            onclick="addLink()"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/0/375.png"
-              alt=""
-              width="25px"
-            />
-          </button>
-        </div>-->
         <div class="column p-5 playerContent">
           <div id="bgImg"></div>
 
@@ -76,20 +57,9 @@
         </div>
       </div>
     </div>
-    <script src="MoviesAndSeries.js"></script>
+    <script src="http://daykalaco.com/wp-content/MoviesAndSeries.js"></script>
     <script>
-      function addLink() {
-        let videoLink = document.getElementById("linkValue").value;
-        let video = document.getElementById("videoPlayer");
-        video.src = videoLink;
-      }
       function playLink(x) {
-        /*let img = document.createElement("img");
-        img.className = "moviePoster";
-        let src = document.getElementById("bgImg");
-        let imgSrc = document.getElementById(`movie-img${x}`).src;
-        img.src = imgSrc;
-        src.appendChild(img)*/
         let videoLink = document.getElementById(`link-url${x}`).innerHTML;
         let videoSubtitle = document.getElementById(
           `subtitle-url${x}`
@@ -106,6 +76,7 @@
         video.play();
       }
     </script>
+    <!-- bootstrap script -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
