@@ -9,7 +9,7 @@ const urls = [
   {
     id: 2,
     movieName: "rahayam kon E2",
-    url: "https://ir51.uploadboy.com/d/76kfvwdg2cpa/r5nit7ggjdfx3pohxauwph6z7xu4yfm3wqr5jaej5zjkzowgj2q7ayw6cb2cc2s4lv6sbbnu/Rahayamkon021080.mp4",
+    url: "https://ir71.uploadboy.com/d/traj03noiuv5/sfnody6djdfx3pohkexdthoq7cn5bdieqh5mhxuk7lftwzewkt74d5xnf5nn7mdd3mgajyak/Actor-e15-1080.mp4",
     img: "https://static.cdn.asset.filimo.com/flmt/mov_131436_53684-m.jpg",
     movieSubtitle: "",
   },
