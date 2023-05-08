@@ -1,9 +1,9 @@
 const urls = [
   {
     id: 1,
-    movieName: "Nato E1",
-    url: "https://ir31.uploadboy.com/d/659a3oa4qwn0/rnnbay6ejdfx3pohlyxgdr4d7l6ift6i46ox54hrckjn3aqznwmcslhfbhsbxvfqttxv3wnj/Naato-01-1080.mp4",
-    img: "https://benameiran.golf/wp-content/uploads/2023/04/Naato-S01E01.jpg",
+    movieName: "Nato E3",
+    url: "https://ir51.uploadboy.com/d/72fdftnz5vfn/r5ndinwdjdfx3pohkqxhzs6z4s7i6ncml63s64n2p3qsy4jujelz32dlmwngnmcvwwomhqpc/Naato03-1080.mp4",
+    img: "https://gahar.ir/wp-content/uploads/2023/05/naato-e3.jpg",
     movieSubtitle: "",
   },
   {
