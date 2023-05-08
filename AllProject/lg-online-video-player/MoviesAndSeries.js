@@ -8,8 +8,8 @@ const urls = [
   },
   {
     id: 2,
-    movieName: "actor 15",
-    url: "https://ir71.uploadboy.com/d/traj03noiuv5/sfnody6djdfx3pohkexdthoq7cn5bdieqh5mhxuk7lftwzewkt74d5xnf5nn7mdd3mgajyak/Actor-e15-1080.mp4",
+    movieName: "Sargije",
+    url: "https://ir41.uploadboy.com/d/zept07shzrpf/wjnfsl6djdfx3pohkqxhjs6b7a47mvihz7iabmlhzoynimuibqf2soetydrdsmfchq4l5bjy/Sargije17-720.mp4",
     img: "https://vipofilm.com/wp-content/uploads/2023/05/Actor-E15.jpg",
     movieSubtitle: "",
   },
