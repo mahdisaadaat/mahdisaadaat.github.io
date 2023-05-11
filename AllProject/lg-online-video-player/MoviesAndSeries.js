@@ -1,9 +1,9 @@
 const urls = [
   {
     id: 1,
-    movieName: "Nato E3",
-    url: "https://ir51.uploadboy.com/d/72fdftnz5vfn/r5ndinwdjdfx3pohkqxhzs6z4s7i6ncml63s64n2p3qsy4jujelz32dlmwngnmcvwwomhqpc/Naato03-1080.mp4",
-    img: "https://gahar.ir/wp-content/uploads/2023/05/naato-e3.jpg",
+    movieName: "Actor.e16",
+    url: "https://ir71.uploadboy.com/d/j2ihoo9he1k8/sfnbwt6djdfx3pohnixdxqw4xal6strv4ypyjq47rlotkcq7b52xvc43czm2wqter37lmivd/Actor.e16-1080p.mp4",
+    img: "https://www.doostihaa.com/img/uploads/2023/05/Actor-E16.jpg",
     movieSubtitle: "",
   },
   {
