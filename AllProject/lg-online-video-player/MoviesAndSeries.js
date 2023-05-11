@@ -1,9 +1,9 @@
 const urls = [
   {
     id: 1,
-    movieName: "Nato E1",
-    url: "https://ir31.uploadboy.com/d/659a3oa4qwn0/rnnbay6ejdfx3pohlyxgdr4d7l6ift6i46ox54hrckjn3aqznwmcslhfbhsbxvfqttxv3wnj/Naato-01-1080.mp4",
-    img: "https://benameiran.golf/wp-content/uploads/2023/04/Naato-S01E01.jpg",
+    movieName: "Actor E16",
+    url: "https://ir71.uploadboy.com/d/j2ihoo9he1k8/sfnbwt6djdfx3pohnixdxqw4xal6strv4ypyjq47rlotkcq7b52xvc43czm2wqter37lmivd/Actor.e16-1080p.mp4",
+    img: "https://www.doostihaa.com/img/uploads/2023/05/Actor-E16.jpg",
     movieSubtitle: "",
   },
   {
