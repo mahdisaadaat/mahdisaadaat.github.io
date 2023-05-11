@@ -1,15 +1,15 @@
 const urls = [
   {
     id: 1,
-    movieName: "Actor E16",
-    url: "https://ir71.uploadboy.com/d/j2ihoo9he1k8/sfnbwt6djdfx3pohnixdxqw4xal6strv4ypyjq47rlotkcq7b52xvc43czm2wqter37lmivd/Actor.e16-1080p.mp4",
-    img: "https://www.doostihaa.com/img/uploads/2023/05/Actor-E16.jpg",
+    movieName: "Nato E3",
+    url: "https://ir51.uploadboy.com/d/72fdftnz5vfn/r5ndinwdjdfx3pohkqxhzs6z4s7i6ncml63s64n2p3qsy4jujelz32dlmwngnmcvwwomhqpc/Naato03-1080.mp4",
+    img: "https://gahar.ir/wp-content/uploads/2023/05/naato-e3.jpg",
     movieSubtitle: "",
   },
   {
     id: 2,
-    movieName: "actor 15",
-    url: "https://ir71.uploadboy.com/d/traj03noiuv5/sfnody6djdfx3pohkexdthoq7cn5bdieqh5mhxuk7lftwzewkt74d5xnf5nn7mdd3mgajyak/Actor-e15-1080.mp4",
+    movieName: "Sargije",
+    url: "https://ir41.uploadboy.com/d/zept07shzrpf/wjnfsl6djdfx3pohkqxhjs6b7a47mvihz7iabmlhzoynimuibqf2soetydrdsmfchq4l5bjy/Sargije17-720.mp4",
     img: "https://vipofilm.com/wp-content/uploads/2023/05/Actor-E15.jpg",
     movieSubtitle: "",
   },
