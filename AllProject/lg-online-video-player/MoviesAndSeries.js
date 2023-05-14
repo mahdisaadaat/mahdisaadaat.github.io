@@ -1,15 +1,15 @@
 const urls = [
   {
     id: 1,
-    movieName: "Actor.e16",
-    url: "https://ir71.uploadboy.com/d/j2ihoo9he1k8/sfnbwt6djdfx3pohnixdxqw4xal6strv4ypyjq47rlotkcq7b52xvc43czm2wqter37lmivd/Actor.e16-1080p.mp4",
+    movieName: "Newcamp E1",
+    url: "https://ir71.uploadboy.com/d/o73u6x4g0xgk/sfnjwagdjdfx3pohk4xgfhuewronmnvpnekpo2spuha4fjhm6l5vto5rafe4km53fnyx4vty/Newcamp-e01-720.mp4",
     img: "https://www.doostihaa.com/img/uploads/2023/05/Actor-E16.jpg",
     movieSubtitle: "",
   },
   {
     id: 2,
-    movieName: "Sargije",
-    url: "https://ir41.uploadboy.com/d/zept07shzrpf/wjnfsl6djdfx3pohkqxhjs6b7a47mvihz7iabmlhzoynimuibqf2soetydrdsmfchq4l5bjy/Sargije17-720.mp4",
+    movieName: "Tnt",
+    url: "https://ir31.uploadboy.com/d/9piuhror16rl/rnndqnwdjdfx3pohkqxhvx4exowfegdu5ve53cqmg36nk6fzpexc6jxoe7qo3ixlgvta2d4j/TNT05-720.mp4",
     img: "https://vipofilm.com/wp-content/uploads/2023/05/Actor-E15.jpg",
     movieSubtitle: "",
   },
