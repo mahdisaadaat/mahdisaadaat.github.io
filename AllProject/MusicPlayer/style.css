@@ -1,0 +1,37 @@
+body {
+  background-color: #000;
+}
+.playlists {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+.Artist {
+  border-radius: 5px;
+  width: 205px;
+  height: 280px;
+  background: #1a1a1a;
+}
+.Artist img {
+  margin: 25px;
+}
+.artistPic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.buttons {
+  display: grid;
+  float: left;
+}
+.type {
+  color: #a7a7a7 !important;
+}
+.buttons button {
+  color: #fff;
+  border: none;
+  background: transparent;
+}
+.buttons button:hover {
+  opacity: 75%;
+}
