@@ -1,3 +1,4 @@
+//Get Elements
 const prevButton = document.getElementById("prev");
 const nextButton = document.getElementById("next");
 const repeatButton = document.getElementById("repeat");
@@ -16,8 +17,10 @@ const playlistContainer = document.getElementById("playlist-container");
 const closeButton = document.getElementById("close-button");
 const playlistSongs = document.getElementById("playlist-songs");
 const currentProgress = document.getElementById("current-progress");
+
 //index for songs
 let index;
+
 //initially loop=true
 let loop = true;
 const songsList = [
@@ -53,6 +56,7 @@ const songsList = [
     image: "need-you-now.jpg",
   },
 ];
+
 //events object
 let events = {
   mouse: {
@@ -63,6 +67,7 @@ let events = {
   },
 };
 let deviceType = "";
+
 //Detect touch device
 const isTouchDevice = () => {
   try {
@@ -75,6 +80,7 @@ const isTouchDevice = () => {
     return false;
   }
 };
+
 //Format time (convert ms to seconds, minutes and add 0 id less than 10)
 const timeFormatter = (timeInput) => {
   let minute = Math.floor(timeInput / 60);
@@ -83,6 +89,7 @@ const timeFormatter = (timeInput) => {
   second = second < 10 ? "0" + second : second;
   return `${minute}:${second}`;
 };
+
 //set song
 const setSong = (arrayIndex) => {
   //this extracts all the variables from the object
@@ -96,12 +103,14 @@ const setSong = (arrayIndex) => {
     maxDuration.innerText = timeFormatter(audio.duration);
   };
 };
+
 //play song
 const playAudio = () => {
   audio.play();
   pauseButton.classList.remove("hide");
   playButton.classList.add("hide");
 };
+
 //repeat button
 repeatButton.addEventListener("click", () => {
   if (repeatButton.classList.contains("active")) {
@@ -114,6 +123,7 @@ repeatButton.addEventListener("click", () => {
     console.log("repeat on");
   }
 });
+
 //Next song
 const nextSong = () => {
   //if loop is true then continue in normal order
@@ -134,12 +144,14 @@ const nextSong = () => {
     playAudio();
   }
 };
+
 //pause song
 const pauseAudio = () => {
   audio.pause();
   pauseButton.classList.add("hide");
   playButton.classList.remove("hide");
 };
+
 //previous song ( you can't go back to a randomly played song)
 const previousSong = () => {
   if (index > 0) {
@@ -152,10 +164,12 @@ const previousSong = () => {
   setSong(index);
   playAudio();
 };
+
 //next song when current song ends
 audio.onended = () => {
   nextSong();
 };
+
 //Shuffle songs
 shuffleButton.addEventListener("click", () => {
   if (shuffleButton.classList.contains("active")) {
@@ -168,14 +182,19 @@ shuffleButton.addEventListener("click", () => {
     console.log("shuffle on");
   }
 });
+
 //play button
 playButton.addEventListener("click", playAudio);
+
 //next button
 nextButton.addEventListener("click", nextSong);
+
 //pause button
 pauseButton.addEventListener("click", pauseAudio);
+
 //prev button
 prevButton.addEventListener("click", previousSong);
+
 //if user clicks on progress bar
 isTouchDevice();
 progressBar.addEventListener(events[deviceType].click, (event) => {
@@ -193,6 +212,7 @@ progressBar.addEventListener(events[deviceType].click, (event) => {
   pauseButton.classList.remove("hide");
   playButton.classList.add("hide");
 });
+
 //update progress every second
 setInterval(() => {
   currentTimeRef.innerHTML = timeFormatter(audio.currentTime);
@@ -203,6 +223,7 @@ setInterval(() => {
 audio.addEventListener("timeupdate", () => {
   currentTimeRef.innerText = timeFormatter(audio.currentTime);
 });
+
 //Creates playlist
 const initializePlaylist = () => {
   for (let i in songsList) {
@@ -221,14 +242,17 @@ const initializePlaylist = () => {
         </li>`;
   }
 };
-//display playlist
+
+//Display Playlist
 playlistButton.addEventListener("click", () => {
   playlistContainer.classList.remove("hide");
 });
-//hide playlist
-closeButton.addEventListener("click", () => {
+
+//Hide Playlist
+playlistButton.addEventListener("click", () => {
   playlistContainer.classList.add("hide");
 });
+
 window.onload = () => {
   //initially first song
   index = 0;
