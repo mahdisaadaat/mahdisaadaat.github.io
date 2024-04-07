@@ -16,21 +16,58 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="videoPlayer">
-        <video src="https://ir61.uploadboy.com/d/8nse8kd2d48u/qnnceeozjdfx3poh24xgdhoa7sb7s6da7uakzhuuxxikd2vtrgestf225k673ytokokz77vx/Mage-Tamoom-Omr-Chand-Ta-Bahareh-E20-720.mp4"
-          autoplay
-          controls
-        ></video>
+    <body>
+      <div style="text-align: center; margin-top: 25px">
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <button onclick="restart();">Restart</button>
+        <button onclick="skip(-10)">Rewind</button>
+        <button onclick="skip(10)">Fastforward</button>
+
+        <br /><br />
+        <video id="video1" width="420" controls>
+          <source
+            src="https://aspb2.asset.aparat.com/aparat-video/3219e4840ba5e37e5d7329ae474fc51c16269415-240p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjAzNzRlY2YyZjZmMDVjZGQwZjc2NTRiN2M2ZGEwNTA4IiwiZXhwIjoxNzEyNDk4ODE4LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.EgYaHcCubBib_Wp_C9WLmLYdE2CrdyTL28EEBxd7Ge8"
+            type="video/mp4"
+          />
+          Your browser does not support HTML5 video.
+        </video>
       </div>
-      <div class="column movies-list">
-        <ul class="rig"></ul>
-      </div>
-    </div>
+    </body>
     <script>
-        function playLink(x){
-            
-        }
+      var myVideo = document.getElementById("video1");
+
+      function playPause() {
+        if (myVideo.paused) myVideo.play();
+        else myVideo.pause();
+      }
+
+      function makeBig() {
+        myVideo.width = 560;
+      }
+
+      function makeSmall() {
+        myVideo.width = 320;
+      }
+
+      function makeNormal() {
+        myVideo.width = 420;
+      }
+
+      function skip(value) {
+        var video = document.getElementById("video1");
+        video.currentTime += value;
+      }
+
+      function restart() {
+        var video = document.getElementById("video1");
+        video.currentTime = 0;
+      }
+    </script>
+    <script>
+      function playLink(x) {}
     </script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
